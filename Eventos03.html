@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos03</title>
+    <style>
+        body{
+            background-color: #aaa;
+        }
+        div{
+            cursor: pointer;
+            padding: 30px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Este é meu Elemento
+    </div>
+    <script>
+        document.querySelector('div').addEventListener('click', () => {console.log('click')})
+    </script>
+</body>
+</html>
